@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="48ed91a0-ff07-4546-b920-c142635c1a4a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D-Multiplayer-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D-Multiplayer-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NetworkButtons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NetworkButtons.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +97,8 @@
       <workItem from="1659322274692" duration="934000" />
       <workItem from="1659402667323" duration="1594000" />
       <workItem from="1659440279045" duration="1592000" />
-      <workItem from="1659475282870" duration="199000" />
+      <workItem from="1659475282870" duration="697000" />
+      <workItem from="1659476557954" duration="229000" />
     </task>
     <task id="LOCAL-00001" summary="Scene setup">
       <created>1659139528391</created>
@@ -120,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659442943522</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit">
+      <created>1659475628353</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659475628353</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +154,7 @@
     <MESSAGE value="Scene setup" />
     <MESSAGE value="Added player controls and multiplayer" />
     <MESSAGE value="Init multiplayer setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init multiplayer setup" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

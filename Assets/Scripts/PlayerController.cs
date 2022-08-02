@@ -42,6 +42,7 @@ public class PlayerController : NetworkBehaviour
         
         var move = transform.right * x + transform.forward * z;
         GetComponent<CharacterController>().Move(move * speed * Time.deltaTime);
+
     }
 
     public override void OnNetworkSpawn()

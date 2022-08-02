@@ -27,7 +27,8 @@ public class NetworkButtons : MonoBehaviour
         if (!NetworkManager.Singleton.IsClient)
         {
             Cursor.lockState = CursorLockMode.Confined;
-            if (GUILayout.Button("Connect To Server")) NetworkManager.Singleton.StartClient();
+            if (GUILayout.Button("Host")) NetworkManager.Singleton.StartClient();
+            if (GUILayout.Button("Client")) NetworkManager.Singleton.StartHost();
             ip = GUILayout.TextField(ip, 15);
 
             strPort = GUILayout.TextField(strPort, 5);
