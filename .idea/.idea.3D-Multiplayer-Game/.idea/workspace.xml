@@ -5,9 +5,142 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48ed91a0-ff07-4546-b920-c142635c1a4a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/ground.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/ground.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Materials/SimpleNaturePack_BG.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Materials/SimpleNaturePack_BG.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Branch_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Branch_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Bush_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Bush_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Bush_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Bush_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Bush_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Bush_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Flowers_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Flowers_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Flowers_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Flowers_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Grass_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Grass_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Grass_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Grass_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Ground_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Ground_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Ground_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Ground_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Ground_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Ground_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Mushroom_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Mushroom_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Mushroom_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Mushroom_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Rock_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Rock_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Rock_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Rock_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Rock_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Rock_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Rock_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Rock_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Rock_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Rock_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Stump_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Stump_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Tree_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Tree_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Tree_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Tree_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Tree_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Tree_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Tree_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Tree_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Tree_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Tree_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Branch_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Branch_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Bush_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Bush_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Bush_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Bush_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Bush_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Bush_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Flowers_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Flowers_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Flowers_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Flowers_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Grass_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Grass_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Grass_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Grass_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Ground_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Ground_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Ground_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Ground_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Ground_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Ground_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Mushroom_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Mushroom_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Mushroom_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Mushroom_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Rock_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Rock_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Rock_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Rock_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Rock_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Rock_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Rock_04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Rock_04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Rock_05.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Rock_05.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Stump_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Stump_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Tree_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Tree_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Tree_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Tree_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Tree_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Tree_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Tree_04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Tree_04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Tree_05.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Tree_05.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrain.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrain/Terrain1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrain/Terrain1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrain/Terrain2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrain/Terrain2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrain/Terrain3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrain/Terrain3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrain/Terrain4.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrain/Terrain4.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrain/dirt layer.terrainlayer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrain/dirt layer.terrainlayer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrain/grass layer.terrainlayer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrain/grass layer.terrainlayer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrain/snow layer.terrainlayer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Terrain/snow layer.terrainlayer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/brown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/white.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D-Multiplayer-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D-Multiplayer-Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Network Objects/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Network Objects/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/NetworkButtons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NetworkButtons.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +231,8 @@
       <workItem from="1659402667323" duration="1594000" />
       <workItem from="1659440279045" duration="1592000" />
       <workItem from="1659475282870" duration="697000" />
-      <workItem from="1659476557954" duration="229000" />
+      <workItem from="1659476557954" duration="738000" />
+      <workItem from="1659501483642" duration="11849000" />
     </task>
     <task id="LOCAL-00001" summary="Scene setup">
       <created>1659139528391</created>
@@ -128,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659475628353</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add host">
+      <created>1659476799679</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659476799679</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +296,7 @@
     <MESSAGE value="Added player controls and multiplayer" />
     <MESSAGE value="Init multiplayer setup" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="add host" />
+    <option name="LAST_COMMIT_MESSAGE" value="add host" />
   </component>
 </project>

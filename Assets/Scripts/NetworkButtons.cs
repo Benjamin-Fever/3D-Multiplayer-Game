@@ -27,8 +27,8 @@ public class NetworkButtons : MonoBehaviour
         if (!NetworkManager.Singleton.IsClient)
         {
             Cursor.lockState = CursorLockMode.Confined;
-            if (GUILayout.Button("Host")) NetworkManager.Singleton.StartClient();
-            if (GUILayout.Button("Client")) NetworkManager.Singleton.StartHost();
+            if (GUILayout.Button("Host")) NetworkManager.Singleton.StartHost();
+            if (GUILayout.Button("Client")) NetworkManager.Singleton.StartClient();
             ip = GUILayout.TextField(ip, 15);
 
             strPort = GUILayout.TextField(strPort, 5);
@@ -36,10 +36,6 @@ public class NetworkButtons : MonoBehaviour
             {
                 GetComponent<UnityTransport>().SetConnectionData(ip, (ushort)port);
             }
-        }
-        else
-        {
-            Cursor.lockState = CursorLockMode.Locked;
         }
 
         GUILayout.EndArea();
