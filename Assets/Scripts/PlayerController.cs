@@ -25,31 +25,29 @@ public class PlayerController : NetworkBehaviour
     private float _yRotation;
     private Transform _mainCamera;
     private bool guiEnabled = false;
-    
+    private Vector3 moveVector;
+
 
     private void Start()
     {
         Init();
+        transform.position = new Vector3(0, 25, 0);
     }
-
-
+    
     // Update is called once per frame
     private void Update()
     {
-        if (!guiEnabled)
-        {
-            CameraController();
-            
-        }
-        
+        CameraController();
         MovementController();
+        
+        if (transform.position.y < -10){ transform.position = new Vector3(0, 25, 0); }
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             guiEnabled = !guiEnabled;
             if (guiEnabled)
             {
-                Cursor.lockState = CursorLockMode.None;
+                Cursor.lockState = CursorLockMode.Confined;
                 Cursor.visible = true;
             }
             else
@@ -57,10 +55,7 @@ public class PlayerController : NetworkBehaviour
                 Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
             }
-            
         }
-
-        Physics.gravity.Set(0f, gravity, 0f);
     }
 
     private void Init()
@@ -76,6 +71,8 @@ public class PlayerController : NetworkBehaviour
 
     private void CameraController()
     {
+        if (guiEnabled) { return; }
+        
         var mouseX = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
         var mouseY = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
         
@@ -84,7 +81,6 @@ public class PlayerController : NetworkBehaviour
         _xRotation = Mathf.Clamp(_xRotation, -90f, 75f);
         
         _mainCamera.localRotation = Quaternion.Euler(_xRotation, _yRotation, 0f);
-        _mainCamera.position = transform.position + Vector3.up;
         transform.Rotate(Vector3.up * mouseX);
     }
 
@@ -92,31 +88,32 @@ public class PlayerController : NetworkBehaviour
     {
         var x = 0f;
         var z = 0f;
+        
         if (!guiEnabled)
         {
             x = Input.GetAxis("Horizontal");
             z = Input.GetAxis("Vertical");
         }
 
-        var moveVector = transform.TransformDirection(new Vector3(x, 0f, z)) * speed;
-        body.velocity = new Vector3(moveVector.x, body.velocity.y, moveVector.z);
-        if (Physics.CheckSphere(feetLevel.position, jumpCheckSize, floorMask))
+        if (Physics.CheckSphere(feetLevel.position, jumpCheckSize, floorMask) && Input.GetButtonDown("Jump") &&
+            !guiEnabled)
         {
-            if (Input.GetButtonDown("Jump") && !guiEnabled) { body.AddForce(Vector3.up * jumpForce, ForceMode.Impulse); }
+            body.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
-        body.AddForce(Vector3.down * gravity, ForceMode.Force);
+        moveVector = transform.TransformDirection(new Vector3(x, 0f, z)) * speed; 
+        _mainCamera.position = transform.position + Vector3.up;
     }
-    
+
+    private void FixedUpdate()
+    {
+        body.AddForce(Vector3.down * gravity, ForceMode.Force);
+        body.velocity = new Vector3(moveVector.x, body.velocity.y, moveVector.z);
+        
+    }
+
     public override void OnNetworkSpawn()
     {
-        if (!IsOwner)
-        {
-            Destroy(this);
-            return;
-        }
-
-        transform.position = new Vector3(-58, 12, -37);
-
+        if (!IsOwner) Destroy(this);
     }
 
     private void OnGUI()
@@ -124,6 +121,7 @@ public class PlayerController : NetworkBehaviour
         GUILayout.BeginArea(new Rect(10, 10, 300, 300));
         if (guiEnabled)
         {
+            GUI.contentColor = Color.black;
             GUILayout.Label("Sensitivity (Default: 100): " + sensitivity);
             sensitivity = GUILayout.HorizontalScrollbar(sensitivity, 1f, 0f, 300f);
             

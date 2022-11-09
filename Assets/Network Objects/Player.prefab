@@ -85,7 +85,7 @@ MonoBehaviour:
   sensitivity: 100
   jumpForce: 20
   gravity: 9.8
-  jumpCheckSize: 0.1
+  jumpCheckSize: 0.7
   feetLevel: {fileID: 5310318503443418043}
   body: {fileID: 9141600071808487259}
   floorMask:
